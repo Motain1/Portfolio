@@ -71,7 +71,7 @@ section{
 }
 
 .header{
-    position: absolute;
+    /*position: absolute;*/
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -200,4 +200,8 @@ nav{
     text-align: center;
     font-size: 48px;
     margin-bottom: 60px;
+}
+
+.project_img{
+    width: 100%;
 }
