@@ -53,7 +53,7 @@
         </ul>
       </nav>
       <header class="header">
-        <div class="header_contenet">
+        <div class="header_content">
           <h1 class="title">Hey</h1>
           <h1 class="title orange">I'm Jackson.</h1>
           <p class="header_para">
@@ -81,6 +81,80 @@
       <a href="#projects" class="scroll">
         <div class="scroll_icon click"></div>
       </a>
+      <div class="modal">
+        <div class="modal_half modal_about">
+          <h3 class="modal_title modal_title-about">Here's abit about me</h3>
+          <h4 class="modal_sub-title modal_sub-title-about">
+            Frontend Software Engineer
+          </h4>
+          <p class="modal_para">
+            I'm a 23 year-old Australian
+            <b class="orange">frontend software engineer</b> with a strong
+            passion for devoloping websites with great
+            <b class="orange">user experiences</b>.
+            <br />
+            I currently work on extremely difficult engineering problems and
+            learn from a team consisting of some of the most
+            <b class="orange">talented</b> and
+            <b class="orange">experienced</b> software engineers everyday.
+          </p>
+          <div class="modal_languages">
+            <figure class="modal_language">
+              <img
+                class="modal_language-img"
+                src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+                alt=""
+              />
+              <span class="language_name">HTML</span>
+            </figure>
+            <figure class="modal_language">
+              <img
+                class="modal_language-img"
+                src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg"
+                alt=""
+              />
+              <span class="language_name">CSS</span>
+            </figure>
+            <figure class="modal_language">
+              <img
+                class="modal_language-img"
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+                alt=""
+              />
+              <span class="language_name">JavaScript</span>
+            </figure>
+            <figure class="modal_language">
+              <img
+                class="modal_language-img"
+                src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+                alt=""
+              />
+              <span class="language_name">React</span>
+            </figure>
+          </div>
+        </div>
+        <div class="modal_half modal_contact">
+          <h3 class="modal_title modal_title-contact">Let's have a chat!</h3>
+          <h3 class="modal_sub-title modal_sub-title-contact">
+            I'm currently open to new opportunities. Can't wait to hear from
+            you!
+          </h3>
+          <form action="" id="contact_form">
+            <div class="form_item">
+              <label class="form_item-label" >Name</label>
+              <input type="text" class="input" name="user_name" required></input>
+            </div>
+            <div class="form_item">
+              <label class="form_item-label">Email</label>
+              <input type="email" class="input" name="user_email" required></input>
+            </div>
+            <div class="form_item">
+              <label class="form_item-label">Message</label>
+              <textarea type="text" class="input" name="user_message" required></textarea>
+            </div>
+          </form>
+        </div>
+      </div>
     </section>
     <section id="projects">
       <div class="container">
@@ -96,6 +170,7 @@
                 class="project_img"
                 alt=""
               />
+              <div class="project_wrapper--bg"></div>
               <div class="project_description">
                 <h3 class="project_description-title">Car Sales Projects</h3>
                 <h4 class="project_description-sub-title">
@@ -108,12 +183,12 @@
                   sint, corporis iusto magni aspernatur, nihil neque.
                 </p>
                 <div class="project_desciption-links">
-                  <a href="#" class="project_desciption-link"
+                  <a href="#" class="project_description-link"
                     ><i class="fa-brands fa-github"></i
                   ></a>
-                  <a href="#" class="project_desciption-link"
-                  ><i class="fas fa-link"></i
-                ></a>
+                  <a href="#" class="project_description-link"
+                    ><i class="fas fa-link"></i
+                  ></a>
                 </div>
               </div>
             </div>
@@ -121,5 +196,41 @@
         </div>
       </div>
     </section>
+    <footer>
+      <div class="container">
+        <div class="row footer_row">
+          <figure>
+            <img class="footer_logo-img" src="/assets/logo.svg" alt="" />
+          </figure>
+          <div class="footer_social-list">
+            <a
+              href="#"
+              class="footer_social-link link_hover-effect link_hover-effect-white"
+            >
+              Github
+            </a>
+            <a
+              href="#"
+              class="footer_social-link link_hover-effect link_hover-effect-white"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="#"
+              class="footer_social-link link_hover-effect link_hover-effect-white"
+            >
+              Email
+            </a>
+            <a
+              href="#"
+              class="footer_social-link link_hover-effect link_hover-effect-white"
+            >
+              Resume
+            </a>
+          </div>
+          <div class="footer_copyright">Copyright ⓒ Jackson Fry 2022</div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
