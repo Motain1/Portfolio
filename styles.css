@@ -62,7 +62,7 @@ input:hover, textarea:hover{
 }
 
 input:focus, textarea:focus{
-    border-color: #c21d2b;
+    border-color: #606c38;
 }
 
 .container{
@@ -85,7 +85,7 @@ input:focus, textarea:focus{
 }
 
 .orange{
-    color: #c21d2b !important;
+    color: #606c38 !important;
 }
 
 .click{
@@ -202,7 +202,7 @@ nav, .scroll, .header{
 }
 
 .social_link{
-    background-color: #c21d2b;
+    background-color: #606c38;
     color: white;
     padding: 6px;
     width: 32px;
@@ -412,8 +412,8 @@ transform: scale(1);
 }
 
 .form_submit{
-    background-color: #c21d2b;
-    border: 2px solid #c21d2b;
+    background-color: #606c38;
+    border: 2px solid #606c38;
     color: #fff;
     font-weight: 700;
     width: 100%;
@@ -488,6 +488,11 @@ animation: spinner 750ms infinite ;
 /*
  PORJECTS 
 */
+
+.project{
+    padding-bottom: 100px;
+
+}
 
 .section_title{
     text-align: center;
